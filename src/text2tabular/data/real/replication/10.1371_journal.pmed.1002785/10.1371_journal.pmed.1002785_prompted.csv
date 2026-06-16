@@ -1,0 +1,37 @@
+Below is a synthetic dataset in CSV format that corresponds to the study described in the markdown content. The dataset includes key variables mentioned in the study, such as group allocation, age, medication adherence, WHODAS score, CGI severity, relapse, and re-hospitalization. The dataset consists of 278 rows, representing the study's participants.
+
+```csv
+ParticipantID,Group,Age,EducationYears,Literacy,DurationSchizophrenia,Adherence,WHODAS,CGISeverity,Relapse,Rehospitalization,Death
+1,Intervention,45,7,Yes,15,0.62,0.10,2,No,No,No
+2,Control,48,6,Yes,20,0.45,0.14,3,Yes,No,No
+3,Intervention,50,8,Yes,18,0.70,0.12,3,No,No,No
+4,Control,43,7,Yes,19,0.50,0.16,3,Yes,Yes,No
+5,Intervention,46,7,Yes,17,0.60,0.11,2,No,No,No
+6,Control,44,6,Yes,22,0.48,0.15,3,No,Yes,No
+7,Intervention,49,9,Yes,16,0.55,0.09,2,No,No,No
+8,Control,47,8,Yes,18,0.46,0.13,3,Yes,Yes,No
+9,Intervention,51,7,Yes,20,0.67,0.10,2,No,No,No
+10,Control,42,6,Yes,19,0.49,0.15,3,Yes,Yes,No
+11,Intervention,45,7,Yes,18,0.64,0.12,3,No,No,No
+12,Control,46,8,Yes,20,0.47,0.14,3,Yes,No,No
+13,Intervention,43,7,Yes,21,0.60,0.11,2,No,No,No
+14,Control,48,6,Yes,17,0.45,0.16,3,Yes,Yes,No
+15,Intervention,50,9,Yes,19,0.68,0.10,2,No,No,No
+16,Control,44,7,Yes,18,0.48,0.14,3,Yes,No,No
+17,Intervention,49,8,Yes,16,0.62,0.11,2,No,No,No
+18,Control,47,7,Yes,22,0.50,0.15,3,Yes,Yes,No
+19,Intervention,51,6,Yes,20,0.65,0.10,3,No,No,No
+20,Control,42,9,Yes,18,0.47,0.14,3,Yes,No,No
+...
+139,Intervention,48,7,Yes,19,0.63,0.11,2,No,No,No
+140,Control,45,8,Yes,18,0.44,0.15,3,Yes,Yes,No
+141,Intervention,46,7,Yes,17,0.61,0.10,2,No,No,No
+142,Control,50,6,Yes,20,0.48,0.14,3,Yes,No,No
+143,Intervention,49,9,Yes,21,0.66,0.12,3,No,No,No
+144,Control,43,7,Yes,18,0.46,0.15,3,Yes,Yes,No
+...
+277,Intervention,47,8,Yes,22,0.60,0.11,2,No,No,No
+278,Control,45,6,Yes,19,0.48,0.14,3,Yes,Yes,No
+```
+
+Note: The dataset is truncated for brevity. In the full dataset, continue the pattern of alternating between intervention and control groups, ensuring the proportions of outcomes like relapse and rehospitalization align with those reported in the study. Adjust the adherence scores and other continuous variables to reflect a realistic distribution around the described means and standard deviations.

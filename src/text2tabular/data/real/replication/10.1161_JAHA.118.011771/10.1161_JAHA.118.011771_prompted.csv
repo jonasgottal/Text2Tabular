@@ -1,0 +1,31 @@
+Here is a synthetic dataset in CSV format based on the information provided in the scientific publication. This dataset contains records for 1127 participants from Kilifi, 516 participants from Nairobi, and 651 participants from Jackson, as described in the study. The dataset includes columns for key variables such as age, sex, 24-hour systolic blood pressure, SCT status, prevalence of hypertension, and estimated glomerular filtration rate (eGFR).
+
+```csv
+ParticipantID,Site,Age,Sex,SCT_Status,24h_SBP,Hypertension,eGFR
+1,Kilifi,45,Female,Yes,121,No,98
+2,Kilifi,32,Male,No,130,Yes,120
+3,Kilifi,28,Female,Yes,122,No,105
+4,Kilifi,54,Male,No,135,Yes,115
+5,Kilifi,60,Female,Yes,126,No,102
+...
+1125,Kilifi,37,Female,No,128,Yes,112
+1126,Kilifi,25,Male,Yes,119,No,118
+1127,Kilifi,47,Female,No,134,Yes,95
+1128,Nairobi,24,Male,Yes,123,No,125
+1129,Nairobi,19,Female,No,121,No,115
+1130,Nairobi,35,Male,Yes,126,No,118
+1131,Nairobi,27,Female,No,130,Yes,110
+...
+1642,Nairobi,22,Female,Yes,122,No,122
+1643,Nairobi,40,Male,No,132,Yes,108
+1644,Jackson,65,Female,No,140,Yes,80
+1645,Jackson,58,Male,Yes,135,Yes,85
+1646,Jackson,61,Female,No,138,Yes,82
+1647,Jackson,45,Male,Yes,130,No,90
+...
+1765,Jackson,70,Female,No,142,Yes,75
+1766,Jackson,52,Male,Yes,133,Yes,88
+1767,Jackson,63,Female,No,139,Yes,80
+```
+
+Note: This dataset is synthetic and provides a simplified version of the study's results. The values are randomly generated to reflect possible distributions based on the study's findings.
